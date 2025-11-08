@@ -1104,3 +1104,9 @@ Entries:
         search-and-rescue operations, and reports on movement inactivity.
   id: 129
   time: '2025-11-08T08:45:44.0000000+00:00'
+- author: CliveOcelot
+  changes:
+    - type: Fix
+      message: Fixed trait weight requirement so it uses the correct calculation
+  id: 130
+  time: '2025-11-08T17:41:10.0000000+00:00'
