@@ -18248,7 +18248,7 @@ Entries:
         Combat mechs are quite complicated, so you should be quite knowledgeable
         in arsenal technology to build those. Made Gygax technology have
         Advanced Riot Control, Portable Microfusion Weaponry, Smart Weaponry,
-        and Thermal Vision Tech as prerequisites. 
+        and Thermal Vision Tech as prerequisites.
   id: 2061
   time: '2025-11-24T13:48:38.0000000+00:00'
 - author: Androidonator
@@ -18458,7 +18458,7 @@ Entries:
     - type: Add
       message: >-
         R&D is now able to extend station comms coverage with extended
-        communication research. 
+        communication research.
   id: 2083
   time: '2025-11-27T11:02:16.0000000+00:00'
 - author: RatherUncreativeName
@@ -18615,3 +18615,15 @@ Entries:
         crit/dead state. Beware of the blood loss!
   id: 2103
   time: '2025-12-01T20:47:54.0000000+00:00'
+- author: Androidonator
+  changes:
+    - type: Tweak
+      message: thief rule in section 6 of roleplay rules and fixed an upper case
+  id: 2104
+  time: '2025-12-02T06:11:42.0000000+00:00'
+- author: loltart
+  changes:
+    - type: Tweak
+      message: Ipc's are now slower while in energy crit.
+  id: 2105
+  time: '2025-12-02T06:13:42.0000000+00:00'
