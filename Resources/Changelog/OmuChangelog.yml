@@ -1303,3 +1303,11 @@ Entries:
       message: Goob Upstream from 23 Nov till 3 Dec (Read In-game Changelog :fire:)
   id: 156
   time: '2025-12-05T17:02:34.0000000+00:00'
+- author: CliveOcelot
+  changes:
+    - type: Tweak
+      message: Facehuggers will no longer infect you if you have the hive node organ.
+    - type: Tweak
+      message: The hive node organ now provides xeno access (you can open resin doors).
+  id: 157
+  time: '2025-12-06T07:22:43.0000000+00:00'
