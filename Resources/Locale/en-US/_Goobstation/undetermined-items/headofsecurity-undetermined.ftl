@@ -17,3 +17,8 @@ selectable-set-hos-rifle-name = X-8 "Station Sweeper"
 selectable-set-hos-rifle-description =
     An elaborately designed rifle, firing shots of pure phoron.
     Low fire rate, high damage.
+
+selectable-set-hos-kalashnikova-name = Kalashnikova
+selectable-set-hos-kalashnikova-description =
+    A relic Kalashnikov rifle, fires ballistic .30 caliber rounds.
+    Seized from a captured Syndicate commando.
