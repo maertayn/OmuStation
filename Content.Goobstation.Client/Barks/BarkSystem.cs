@@ -7,6 +7,7 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Timing;
 using Content.Goobstation.Common.CCVar;
+using Robust.Client.Player;
 
 namespace Content.Goobstation.Client.Barks;
 
@@ -17,6 +18,7 @@ public sealed class BarkSystem : EntitySystem
     [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
     [Dependency] private readonly IRobustRandom _random = default!;
     [Dependency] private readonly SharedAudioSystem _sharedAudio = default!;
+    [Dependency] private readonly IPlayerManager _playerManager = default!; // Omu
 
     private readonly Dictionary<NetEntity, EntityUid> _playingSounds = new();
     private static readonly char[] Characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890".ToCharArray();
@@ -66,6 +68,12 @@ public sealed class BarkSystem : EntitySystem
         var volume = GetVolume(whisper, proto);
         if (volume <= -20f)
             return;
+
+        // Omu inLobby bark-fix
+        var session = _playerManager.LocalSession;
+        if (session?.AttachedEntity == null)
+            return;
+        // Omu end
 
         var upperCount = 0;
         foreach (var c in message)
