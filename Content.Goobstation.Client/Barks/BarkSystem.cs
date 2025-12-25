@@ -71,7 +71,7 @@ public sealed class BarkSystem : EntitySystem
 
         // Omu inLobby bark-fix
         var session = _playerManager.LocalSession;
-        if (session?.AttachedEntity == null)
+        if (session?.AttachedEntity == null && source != null)
             return;
         // Omu end
 
