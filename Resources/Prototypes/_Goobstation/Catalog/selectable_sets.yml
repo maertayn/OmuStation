@@ -604,20 +604,6 @@
   content:
   - WeaponHeadOfSecurityRifle
 
-# Omu Begin
-- type: selectableSet
-  id: HosKalashSet
-  name: selectable-set-hos-kalashnikova-name
-  description: selectable-set-hos-kalashnikova-description
-  sprite:
-    sprite: Objects/Weapons/Guns/Rifles/ak.rsi
-    state: icon
-  content:
-  - WeaponHeadOfSecurityRifleAk
-  - MagazineLightRifle
-  - MagazineLightRifle
-# Omu End
-
 # Captain
 
 - type: selectableSet

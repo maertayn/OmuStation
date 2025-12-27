@@ -220,3 +220,16 @@
     state: icon
   content:
   - ClothingOuterHardsuitCorpsman
+
+# Kalashnikova
+- type: selectableSet
+  id: HosKalashSet
+  name: selectable-set-hos-kalashnikova-name
+  description: selectable-set-hos-kalashnikova-description
+  sprite:
+    sprite: _Omu/Objects/Weapons/Guns/Rifles/kalash.rsi
+    state: icon
+  content:
+  - WeaponHeadOfSecurityRifleAk
+  - MagazineLightRifle
+  - MagazineLightRifle

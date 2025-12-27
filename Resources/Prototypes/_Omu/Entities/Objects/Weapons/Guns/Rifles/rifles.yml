@@ -1,0 +1,23 @@
+- type: entity
+  name: Kalashnikova
+  parent: [WeaponRifleAk, BaseCommandContraband]
+  id: WeaponHeadOfSecurityRifleAk
+  description: '"If the day does not require an AK, it is good. If the day requires an AK, it is even better." - Old Earth Warrior Poet'
+  components:
+  - type: Sprite
+    sprite: _Omu/Objects/Weapons/Guns/Rifles/kalash.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _Omu/Objects/Weapons/Guns/Rifles/kalash.rsi
+    quickEquip: false
+    slots:
+    - Back
+    - suitStorage
+  - type: ChamberMagazineAmmoProvider
+    boltClosed: false
+  - type: StaticPrice
+    price: 2500
